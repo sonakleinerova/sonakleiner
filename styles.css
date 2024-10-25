@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: #000; /* Černé pozadí */
+    color: #fff; /* Bílé písmo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3em; /* Větší písmo */
+    font-weight: 700; /* Tlustší písmo */
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+header h1:hover {
+    transform: scale(1.05); /* Zvětšení nadpisu při najetí myší */
+}
+
+header p {
+    font-size: 1.5em; /* Větší popis */
+    color: #ccc; /* Světlejší bílá */
+    margin-top: 10px;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #1a1a1a; /* Tmavě šedá */
+    border-radius: 12px; /* Zaoblené rohy */
+    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1); /* Hladší stín */
+    transition: box-shadow 0.3s ease; /* Plynulé přechody */
+}
+
+section:hover {
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.2); /* Stín při najetí myší */
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.2em;
+    color: #fff; /* Bílé písmo */
+    margin-bottom: 10px;
+    transition: color 0.3s ease; /* Plynulé přechody */
+}
+
+li:hover {
+    color: #007aff; /* Modrá barva při najetí myší */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    color: #ccc; /* Světlejší bílá */
+}
+
+footer a {
+    color: #007aff; /* Modrá barva */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Podtržení při najetí myší */
+}
